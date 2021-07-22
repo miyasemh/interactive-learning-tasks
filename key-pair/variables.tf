@@ -1,7 +1,7 @@
 variable "region" {
   type        = string
   description = "Please provide your region"
-  default     = "eu-west-1"
+  default     = "us-east-2"
 }
 
 variable "key_name" {
@@ -9,3 +9,5 @@ variable "key_name" {
   default     = "ilearning-wordpress"
   description = "Please enter the key name"
 }
+
+
